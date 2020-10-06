@@ -1,1 +1,6 @@
-Lord_BurakReis MuhammedEmir987 MemoryDumper EyeFIND
+local names = {"Lord_BurakReis", "EyeFlND", "MuhammedEmir987", "MemoryDumper"}
+for i,v in pairs(names) do
+	if v ~= game.Players.LocalPlayer.Name then
+		game.Players.LocalPlayer:Kick("Buy a WL from https://discord.gg/RZuGtdv")
+	end
+end
